@@ -19703,11 +19703,9 @@
 	      isDone: false
 	    };
 	  },
-
 	  componentDidMount: function componentDidMount() {
 	    _reactDom2.default.findDOMNode(this).addEventListener('transitionend', this._onTransitionend, false);
 	  },
-
 	  _onTransitionend: function _onTransitionend() {
 	    if (this.state.isFired) {
 	      return;
@@ -19727,21 +19725,18 @@
 	      });
 	    }
 	  },
-
 	  _onPressDown: function _onPressDown() {
 	    if (this.state.isDone) {
 	      return;
 	    }
 	    this.setState({ isHolding: true });
 	  },
-
 	  _onRelease: function _onRelease() {
 	    if (this.state.isDone) {
 	      return;
 	    }
 	    this.setState({ isHolding: false });
 	  },
-
 	  __getClassesNames: function __getClassesNames() {
 
 	    var base = 'hold-btn';
@@ -19753,7 +19748,6 @@
 	    }
 	    return [base];
 	  },
-
 	  render: function render() {
 	    return _react2.default.createElement(
 	      'div',

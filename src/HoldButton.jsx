@@ -11,7 +11,7 @@ export default React.createClass({
     ]),
   },
 
-  getInitialState: function() {
+  getInitialState() {
     return {
           isFired: false,
           isHolding: false,
@@ -19,11 +19,11 @@ export default React.createClass({
        };
   }, 
   
-  componentDidMount: function() {
+  componentDidMount() {
     ReactDOM.findDOMNode(this).addEventListener('transitionend', this._onTransitionend, false)
   },
    
-  _onTransitionend: function(){
+  _onTransitionend(){
     if(this.state.isFired){
         return;
     }
@@ -43,23 +43,23 @@ export default React.createClass({
     }
   },
   
-  _onPressDown: function(){
+  _onPressDown(){
     if(this.state.isDone){
         return;
     }
     this.setState({isHolding:true});
   },
   
-  _onRelease: function(){
+  _onRelease(){
     if(this.state.isDone){
         return;
     }
     this.setState({isHolding:false});
   },
 
-  __getClassesNames: function(){
+  __getClassesNames(){
 
-    var base = 'hold-btn';
+    const base = 'hold-btn';
     if(this.state.isDone){
         return [base,'done'];
     }
@@ -69,7 +69,7 @@ export default React.createClass({
     return [base];
   },
   
-  render: function() {
+  render() {
     return (<div className="hold-btn-container"
                 onTouchStart={this._onPressDown} 
                 onTouchEnd={this._onRelease}>

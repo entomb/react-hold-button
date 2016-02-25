@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';  
-import HoldButton from '../src/HoldButton.js';  
+import HoldButton from '../src/HoldButton.jsx';  
 
 
-    var exampleCallback = function(){ 
+    const exampleCallback(){ 
         alert("this is a callback"); 
     }
 
-ReactDOM.render(
-  <HoldButton onLongPress={exampleCallback} Content="yes" />,
-  document.getElementById('container')
-);
+    ReactDOM.render(
+      <HoldButton onLongPress={exampleCallback} Content="yes" />,
+      document.getElementById('container')
+    );
