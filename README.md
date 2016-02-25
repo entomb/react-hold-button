@@ -1,6 +1,8 @@
 #react-hold-button
 A button you have to press for some time before it fires
 
+![example](https://i.imgflip.com/zt95t.gif)
+
 ##Usage
 
 ###1. install the lib
