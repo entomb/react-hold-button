@@ -1,6 +1,6 @@
 {
   "name": "react-hold-button",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A button you have to press for some time before it fires",
   "main": "src/HoldButton.js",
   "author": "Jonathan Tavares <the.entomb@gmail.com>",
