@@ -6,7 +6,9 @@ A button you have to press for some time before it fires
 ##Usage
 
 ###1. install the lib
-   $ npm install react-hold-button
+```sh
+$ npm install react-hold-button
+```
 
 
 ###2. import the component
