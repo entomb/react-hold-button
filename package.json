@@ -1,0 +1,34 @@
+{
+  "name": "react-hold-button",
+  "version": "0.0.1",
+  "description": "A button you have to press for some time before it fires",
+  "main": "src/HoldButton.js",
+  "author": "Jonathan Tavares <the.entomb@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "react-component",
+    "react",
+    "button",
+    "component"
+  ],
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/entomb/react-hold-button.git"
+  },
+  "scripts": {
+	  "dev": "webpack && webpack-dev-server --inline --content-base ./example/"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.3",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

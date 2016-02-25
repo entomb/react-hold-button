@@ -1,0 +1,49 @@
+
+
+
+    .hold-btn-container{
+        background: #CCC;
+        width: 100px;
+        height: 100px;
+        padding:2px;
+        border-radius: 50%;
+    }
+
+    
+    .hold-btn{
+        width: 33%;
+        height: 33%;
+        position: relative;
+        top:33%;
+        left:33%;
+        background: red;
+        border-radius: 50%;
+        transform:scale(1); 
+        transition:transform 0.25s ease-out;
+        cursor:pointer;
+        text-align: center; 
+        user-select: none; 
+        -webkit-user-select: none; 
+        -ms-user-select: none; 
+    }
+
+    .hold-btn span{
+        display: inline-block;
+        width: 100%;
+        margin-top: 22%;
+        user-select: none; 
+        -webkit-user-select: none; 
+        -ms-user-select: none; 
+    }
+
+    .hold-btn.holding{ 
+        transform:scale(3); 
+        transition:transform 1.75s  ease-in;
+    }
+
+    .hold-btn.done{
+        opacity: 0;
+        transform:scale(6); 
+        transition:all 0.35s ease-in;
+        cursor: default;
+    }
