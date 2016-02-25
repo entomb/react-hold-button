@@ -4,23 +4,19 @@ A button you have to press for some time before it fires
 ##Usage
 
 ###1. install the lib
-```
+```bash
    npm install react-hold-button
-
 ```
 
 ###2. import the component
 ```javascript
-
     import HoldButton from 'react-hold-button';  
-
 ```
 
 ###3. use the component
 A complete example is available in `./example` folder.
 ```html
     <HoldButton onLongPress={exampleCallback} Content="text" />
-
 ```
 
 ## try it out
@@ -35,7 +31,7 @@ you can either use this [link] or clone the repo and `npm run dev`
 ##Style
 react-hold-button is based on the `transitionend` event, some CSS is required. heres an example. you can build your own using the `.done` and `.holding` css classes
 ```css
-.hold-btn-container{
+    .hold-btn-container{
         background: #CCC;
         width: 100px;
         height: 100px;
