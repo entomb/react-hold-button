@@ -6,7 +6,7 @@ A button you have to press for some time before it fires
 ##Usage
 
 ###1. install the lib
-   npm install react-hold-button
+   $ npm install react-hold-button
 
 
 ###2. import the component
@@ -17,7 +17,7 @@ A complete example is available in `./example` folder.
     <HoldButton onLongPress={exampleCallback} Content="text" />
 
 
-## try it out
+## or try it out instead
     git clone
     npm install
     npm run dev
