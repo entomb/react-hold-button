@@ -2,7 +2,7 @@
   "name": "react-hold-button",
   "version": "0.4.0",
   "description": "A button you have to press for some time before it fires",
-  "main": "dist/main.js",
+  "main": "src/HoldButton.jsx",
   "author": "Jonathan Tavares <the.entomb@gmail.com>",
   "license": "MIT",
   "keywords": [
@@ -21,7 +21,7 @@
   },
   "scripts": {
     "dev": "webpack && webpack-dev-server --inline --content-base ./example/",
-    "build": "babel src/HoldButton.jsx >> dist/main.js"
+    "build": "babel src/HoldButton.jsx > dist/main.js"
   },
   "devDependencies": {
     "babel": "^6.5.2",
