@@ -16,7 +16,9 @@ $ npm install react-hold-button
 
 ###3. use the component
 A complete example is available in `./example` folder.
-    <HoldButton onLongPress={exampleCallback} Content="text" />
+```
+<HoldButton onLongPress={exampleCallback} Content="text" />
+```
 
 
 ## or try it out instead
