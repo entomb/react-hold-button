@@ -1,20 +1,20 @@
-#react-hold-button
-A button you have to press for some time before it fires
+# react-hold-button
+An button you have to press for some time before it fires
 
 ![example](https://i.imgflip.com/zt95t.gif)
 
-##Usage
+## Usage
 
-###1. install the lib
+### 1. install the lib
 ```sh
 $ npm install react-hold-button
 ```
 
 
-###2. import the component
+### 2. import the component
     import HoldButton from 'react-hold-button';  
 
-###3. use the component
+### 3. use the component
 A complete example is available in `./example` folder.
 ```
 <HoldButton onLongPress={exampleCallback} Content="text" />
@@ -27,12 +27,12 @@ A complete example is available in `./example` folder.
     npm run dev
 
 
-##Properties:
+## Properties:
 - `onLongPress` - `[function]` button callback
 - `Content` - `[string|object]` button content
 
 
-##Style
+## Style
 react-hold-button is based on the `transitionend` event, some CSS is required. heres an example. you can build your own using the `.done` and `.holding` css classes
 ```css
     .hold-btn-container{
